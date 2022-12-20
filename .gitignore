@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+*.bam
+*.vcf
+*.bed
+pileup.*
+*.out
+tools/
+docs/
