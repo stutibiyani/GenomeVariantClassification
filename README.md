@@ -1,10 +1,5 @@
 # Optimization of Deep Learning models for Genomic Variant Calling on Distributed Environment with GPUs
 
-## Team
-1. Mihir Upasani (mu2047)
-2. Swarnashri Chandrashekar (sc8781)
-3. Stuti Biyani (sb7580)
-
 ## Description
 Deoxyribonucleic acid (DNA) is the chemical compound that contains the instructions needed to develop and direct the activities of nearly all living organisms. Genome is an organism’s complete set of DNA. A human genome is approximately made up of 3 billion DNA base pairs. Genomics is the study of the genome including the interactions of genes with each other and the person’s environments[1]. However, there exists major computational bottlenecks and inefficiencies throughout the genome analysis pipeline. Variant identification and classification is an important task of genome analysis that gives doctors and scientists information about an organism's response to certain infections, drugs, and conditions they are gentically predisposed to. There have been variety of algorithms and tools developed to call generic and specific variants like GATK, Haplotype etc. However, these tools are extremely time consuming and ineficient when run in CPUs. This led to the rise of deep neural network based variant callers like DeepVariant from Google. These still have scope for improvement as training the models for good accuracy across different data requires training using multiple read aligned and variant called genomes with very large number of samples.
 Our objective in this project is to optimize the variant classification process on current deep learning models to reduce the inefficiencies and computational bottlenecks. 
